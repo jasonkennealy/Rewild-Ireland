@@ -93,3 +93,21 @@ h1, h2 {
     padding-top: 350px;
     height: 100px;
 }
+
+/* goals */
+
+#goals {
+    height: 700px;
+}
+
+#top-goal {
+    padding-top: 30px;
+}
+
+#middle-goal {
+    padding-top: 30px;
+}
+
+#bottom-goal {
+    padding-top: 30px;
+}
