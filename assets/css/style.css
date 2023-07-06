@@ -9,4 +9,23 @@
 body {
     font-family: Quicksand, sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings & logo */
+
+h1, h2 {
+    font-family: Quicksand, sans-serif;
+    letter-spacing: 7px;
+    color: #252525;
+}
+
+#logo {
+    width: 200px;
+        height: 200px;
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -100px;
 }
