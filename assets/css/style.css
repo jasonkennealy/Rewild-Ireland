@@ -18,14 +18,78 @@ h1, h2 {
     font-family: Quicksand, sans-serif;
     letter-spacing: 7px;
     color: #252525;
+    text-align: center;
 }
 
 #logo {
+    font-size: 290%;
     width: 200px;
-        height: 200px;
-        position: fixed;
-        top: 30%;
-        left: 50%;
-        margin-top: -100px;
-        margin-left: -100px;
+    height: 200px;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+/*navigation links */
+
+#menu {
+    font-size: 140%;
+    letter-spacing: 7px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    margin-top: 85px;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-left: 20px;
+    align-items: center;
+    margin-top: 50px;
+    flex-grow: 1;
+}
+
+#menu li:not(:last-child) {
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #3a3a3a;
+    background-color
+}
+
+#menu a:hover {
+    background: #e1e1e1;
+    border-top: 1px solid #d0d0d0;
+}
+
+#active {
+    background: #e1e1e1;
+    border-top: 1px solid #d0d0d0;
+}
+
+/*hero image */
+
+#hero-image {
+    height: 700px;
+    width: 100%;
+    background: url('/assets/images/hero-image.jpg') no-repeat center center;
+}
+
+/*hero image text */
+
+#cover-text, #cover-text h2 {
+    color: white;
+}
+
+#cover-text {
+    font-family: Quicksand, sans-serif;
+    font-size: 250%;
+    letter-spacing: 14px;
+    padding-top: 350px;
+    height: 100px;
 }
