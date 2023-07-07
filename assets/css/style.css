@@ -14,7 +14,8 @@ body {
 
 /* headings & logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Quicksand, sans-serif;
     letter-spacing: 7px;
     color: #252525;
@@ -84,7 +85,8 @@ h1, h2 {
 
 /*hero image text */
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: white;
 }
 
@@ -150,8 +152,89 @@ h1, h2 {
 
 hr {
     border-top: 2px solid #3a3a3a;
-    width:auto;
+    width: auto;
     margin: 5px 0;
 }
 
+/* course section */
 
+#courses div {
+    color: #d0d0d0;
+    background-color: #3a3a3a;
+}
+
+#courselist {
+    margin-top: 40px;
+}
+
+#course-1 {
+    background: url('../images/compost.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+#course-2 {
+    background: url('../images/bee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+#course-3 {
+    background: url('../images/foraging.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+#course-4 {
+    background: url('../images/flowers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+#course-5 {
+    background: url('../images/growyourown.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+#course-6 {
+    background: url('../images/soil.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+#course-7 {
+    background: url('../images/mushroom.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+#course-8 {
+    background: url('../images/bonsai.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
