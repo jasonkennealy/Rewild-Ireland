@@ -75,67 +75,95 @@
     <h2 id="courselist">Courses</h2>
 
     <div id="course-1">
-        <h2>Compost Toilet Building</h2>
-        <h3>Tuesdays</h3>
-        <h3>€160</h3>
-        <input>
+        <h2>Compost Toilet Build</h2>
+        <button type="button" class="course-button"><a href="course-form.html">Inquire</a></button>
     </div>
 
     <div id="course-2">
         <h2>Beekeeping</h2>
-        <h3>Mondays</h3>
-        <h3>€200</h3>
-        <input>
+        <button type="button" class="course-button"><a href="course-form.html">Inquire</a></button>
     </div>
 
     <div id="course-3">
         <h2>Foraging</h2>
-        <h3>June + October</h3>
-        <h3>€80</h3>
-        <input>
+        <button type="button" class="course-button"><a href="course-form.html">Inquire</a></button>
     </div>
 
     <div id="course-4">
         <h2>Wildflower Picking</h2>
-        <h3>July</h3>
-        <h3>€50</h3>
-        <input>
+        <button type="button" class="course-button"><a href="course-form.html">Inquire</a></button>
     </div>
 
     <div id="course-5">
         <h2>Growing Your Own</h2>
-        <h3>Fridays</h3>
-        <h3>€45</h3>
-        <input>
+        <button type="button" class="course-button"><a href="course-form.html">Inquire</a></button>
     </div>
 
     <div id="course-6">
         <h2>Soil Health</h2>
-        <h3>Sundays</h3>
-        <h3>€80</h3>
-        <input>
+        <button type="button" class="course-button"><a href="course-form.html">Inquire</a></button>
     </div>
 
     <div id="course-7">
         <h2>Mushroom Walk</h2>
-        <h3>August</h3>
-        <h3>€150</h3>
-        <input>
+        <button type="button" class="course-button"><a href="course-form.html">Inquire</a></button>
     </div>
 
     <div id="course-8">
-        <h2>Bonsai Tree Workshop</h2>
-        <h3>Thursdays</h3>
-        <h3>€120</h3>
-        <input>
+        <h2>Bonsai Workshop</h2>
+        <button type="button" class="course-button"><a href="course-form.html">Inquire</a></button>
     </div>
 
 </section>
-<section>Plant A Tree</section>
+<section>
+    <div>
+        <h2>Plant A Tree</h2>
+        <p>Enter your details below and we will plant a tree in your name!</p>
+        <form id=course-form>
+            <label id="firstname">First Name: </label>
+            <input type="text" for="firstname" placeholder="First Name">
+        
+            <label id="lastname">Last Name: </label>
+            <input type="text" for="lastname" placeholder="Last Name">
+        
+            <label id="number">Phone Number: </label>
+            <input type="tel" for="number" placeholder="Phone Number">
+        
+            <label id="email">Email: </label>
+            <input type="email" for="email" placeholder="youremail@example.com">
+        
+            <label for="tree-selection">What tree would you like to plant?</label>
+            <select name="tree-selection" id="tree-selection">
+                <option value="birch">Birch</option>
+                <option value="willow">Willow</option>
+                <option value="ash">Ash</option>
+                <option value="oak">Oak</option>
+            </select>
+            <br>
+            <label id="submit"></label>
+            <input type="submit" for="submit">
+        </form>
+    </div>
+</section>
 <!--font awesome script-->
 
 <script src="https://kit.fontawesome.com/fae5a1fe53.js" crossorigin="anonymous"></script>
 
 </body>
-<footer>social links here</footer>
+<footer>
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</i></a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</i></a>
+        </li>
+        <li>
+            <a href="https://www.twitter.com/" target="_blank" rel="noopener">Twitter</i></a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener">Youtube</i></a>
+        </li>
+    </ul>
+</footer>
 </html>
