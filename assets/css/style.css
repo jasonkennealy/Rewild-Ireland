@@ -26,11 +26,10 @@ h2 {
     font-size: 290%;
     width: 200px;
     height: 200px;
-    position: fixed;
+    position: absolute;
     top: 15%;
     left: 50%;
-    margin-top: -100px;
-    margin-left: -100px;
+    transform: translate(-50%, -50%);
 }
 
 /*navigation links */
@@ -42,29 +41,19 @@ h2 {
     justify-content: center;
     padding: 0;
     width: 100%;
-    margin-top: 85px;
-    margin-bottom: 10px;
-    margin-left: 30px;
-}
-
-/*  list-style-type: none;
- margin-left: 20px;
- align-items: center;
- margin-top: 50px;
- flex-grow: 1;
-
- */
-
-#menu {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    margin-bottom: 150px;
-    list-style-type: none;
-    
+    margin-bottom: 0;
 }
 
-#menu > li {
-    display: inline;
+#menu li {
+    display: inline-block;
     text-decoration: none;
+    list-style-type: none;
+    margin: 0 70px;
+    
 }
 
 #menu a {
@@ -305,28 +294,31 @@ padding: 15px 32px;
     font-size: 16px;
     border: solid #3a3a3a;
     border-radius: 5px;
-    padding-left: 40px;
+    padding-top: 10px;
     opacity: .8;
     position: relative;
-    right: 20px;
+    right: -90px;
     cursor: pointer;
 }
 
+#tree-details {
+    padding-left: 12px;
+    padding-bottom: 5px;
+}
+
+#tree-selection {
+padding: 20px;
+}
+
+
 label {
-    padding: left;
+    padding-left: 15px;
     font-size: 25px;;
 }
 
 #course-selection {
     padding-right: 40px;
 }
-
-
-
-}
-
-
-
 
 /* footer */
 
@@ -339,22 +331,119 @@ footer ul {
 }
 
 footer ul li {
-    display: inline;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 70px;
 }
 
 footer a {
     font-size: 140%;
         letter-spacing: 7px;
-        display: inline;
+        display: flex;
         justify-content: center;
         padding: 0;
         width: 100%;
-        margin-top: 85px;
+        margin-top: 60px;
         margin-bottom: 10px;
-        margin-left: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 0;
 }
 
 footer a:hover {
     background: #e1e1e1;
     border-top: 1px solid #d0d0d0;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) {
+        #goals {
+                height: 1800px;
+                width: 45%;
+                margin-left: 20%;
+                margin-right: 20%; 
+        }
+
+                #menu {
+                    font-size: 140%;
+                    letter-spacing: 7px;
+                    display: block;
+                    justify-content: center;
+                    padding: 0;
+                    width: 100%;
+                    margin-top: 150px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+                    margin-bottom: 0;
+                }
+        
+                #menu li {
+                    display: block;
+                    text-decoration: none;
+                    list-style-type: none;
+                    margin: 0 70px;
+        
+                }
+}
+
+
+@media screen and (max-width: 900px) {
+    #goals {
+        height: 1600px;
+        width: 45%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #menu {
+        font-size: 140%;
+        letter-spacing: 7px;
+        display: block;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+        margin-top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    #menu li {
+        display: block;
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0 70px;
+
+    }
+
+        #menu {
+            font-size: 140%;
+            letter-spacing: 7px;
+            display: block;
+            justify-content: center;
+            padding: 0;
+            width: 100%;
+            margin-top: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            margin-bottom: 0;
+        }
+    
+        #menu li {
+            display: block;
+            text-decoration: none;
+            list-style-type: none;
+            margin: 0 70px;
+    
+        }
+
+    
 }

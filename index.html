@@ -7,7 +7,7 @@
     <meta name="description" content="An educational site for rewilding and biodiversity in Ireland.">
     <meta name="keywords" content="biodiversity, educational, enviroment">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Rewild Ireland</title>
 </head>
 <body>
       <a href="html.index">
@@ -16,16 +16,16 @@
       <nav>
         <ul id="menu">
             <li>
-                <a href="index.html" class="active">Home</a>
+                <a href="file:///workspaces/Rewild-Ireland/index.html" class="active">Home</a>
             </li>
             <li>
-                <a href="#">Our goal</a>
+                <a href="#goals">Our Goal</a>
             </li>
             <li>
-                <a href="#">Courses</a>
+                <a href="#courses"> Our Courses</a>
             </li>
             <li>
-                <a href="#">Plant A Tree</a>
+                <a href="#form-container">Plant A Tree</a>
             </li>
         </ul>
       </nav>
@@ -71,7 +71,6 @@
     </div>
 </section>
 <section id="courses">
-
     <h2 id="courselist">Courses</h2>
 
     <div id="course-1">
@@ -116,21 +115,21 @@
 
 </section>
 <section>
-    <div>
+    <div id="form-container">
         <h2>Plant A Tree</h2>
-        <p>Enter your details below and we will plant a tree in your name!</p>
-        <form id=course-form>
-            <label id="firstname">First Name: </label>
-            <input type="text" for="firstname" placeholder="First Name">
+        <h3 id="tree-details">Enter your details below and we will plant a tree in your name!</h3>
+        <form id=course-form action="https://formdump.codeinstitute.net/" method="POST">
+            <label id="firstname">First Name:</label>
+            <input type="text" for="firstname" placeholder="First Name" required>
         
             <label id="lastname">Last Name: </label>
-            <input type="text" for="lastname" placeholder="Last Name">
+            <input type="text" for="lastname" placeholder="Last Name" required>
         
             <label id="number">Phone Number: </label>
-            <input type="tel" for="number" placeholder="Phone Number">
+            <input type="tel" for="number" placeholder="Phone Number" required>
         
             <label id="email">Email: </label>
-            <input type="email" for="email" placeholder="youremail@example.com">
+            <input type="email" for="email" placeholder="youremail@example.com" required>
         
             <label for="tree-selection">What tree would you like to plant?</label>
             <select name="tree-selection" id="tree-selection">
@@ -145,11 +144,7 @@
         </form>
     </div>
 </section>
-<!--font awesome script-->
 
-<script src="https://kit.fontawesome.com/fae5a1fe53.js" crossorigin="anonymous"></script>
-
-</body>
 <footer>
     <ul>
         <li>
@@ -166,4 +161,10 @@
         </li>
     </ul>
 </footer>
+
+</body>
+
+<!--font awesome script-->
+
+<script src="https://kit.fontawesome.com/fae5a1fe53.js" crossorigin="anonymous"></script>
 </html>
