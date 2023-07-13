@@ -9,32 +9,33 @@
     <meta name="keywords" content="biodiversity, educational, enviroment">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rewild Ireland - Course Sign Up</title>
+        <a href="index.html">
+            <h1 id="logo">Rewild Ireland</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="index.html#goals">Our Goal</a>
+                </li>
+                <li>
+                    <a href="#course-form-heading">Our Courses</a>
+                </li>
+                <li>
+                    <a href="index.html#plant-a-tree">Plant A Tree</a>
+                </li>
+            </ul>
+        </nav>
 </head>
 
 <body>
-    <a href="html.index">
-        <h1 id="logo">Rewild Ireland</h1>
-    </a>
-    <nav>
-        <ul id="menu">
-            <li>
-                <a href="index.html" class="active">Home</a>
-            </li>
-            <li>
-                <a href="#goals">Our Goal</a>
-            </li>
-            <li>
-                <a href="course-form.html">Our Courses</a>
-            </li>
-            <li>
-                <a href="#plant-a-tree">Plant A Tree</a>
-            </li>
-        </ul>
-    </nav>
     <section>
         <h1 id="course-form-heading">Courses</h1>
         <h2>Enter your details below to find out more about our courses.</h2>
-        <form id=course-form action="https://formdump.codeinstitute.net/" method="POST">
+        <div>
+         <form id=course-form action="https://formdump.codeinstitute.net/" method="POST">
             <label id="firstname">First Name: </label>
             <input type="text" for="firstname" placeholder="First Name">
 
@@ -61,7 +62,8 @@
             <br>
             <label id="submit"></label>
             <input type="submit" for="submit">
-        </form>
+         </form>
+        </div>
     </section>
     <footer>
         <ul>
