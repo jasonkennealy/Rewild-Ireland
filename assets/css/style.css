@@ -278,15 +278,35 @@ hr {
     
 }
 
-/*course form */
+/*course/tree form */
 
 input[type=text], input[type=tel], input[type=email] {
-width: 100%;
+width: 80%;
+max-width: 400px;
     padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
+    margin: 8px auto;
+    display: center;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#form-container input[type="text"],
+#form-container input[type="tel"],
+#form-container input[type="email"],
+#form-container input[type="submit"],
+#form-container p {
+    margin: 8px auto;
+    width: 80%;
+    max-width: 400px;
     box-sizing: border-box;
 }
 
@@ -299,18 +319,23 @@ padding: 15px 32px;
     border-radius: 5px;
     padding-top: 10px;
     opacity: .8;
-    position: relative;
     right: -90px;
     cursor: pointer;
+    display: center;
 }
 
 #tree-details {
-    padding-left: 12px;
-    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 #tree-selection {
 padding: 20px;
+border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 
@@ -323,6 +348,10 @@ label {
     padding-right: 40px;
 }
 
+#course-paragragh {
+text-align: center;
+}
+
 /* footer */
 
 footer {
@@ -331,6 +360,7 @@ footer {
 
 footer ul {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 footer ul li {
@@ -348,16 +378,20 @@ footer a {
         padding: 0;
         width: 100%;
         margin-top: 60px;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        margin-bottom: 0;
+        margin-bottom: 20px;
 }
 
 footer a:hover {
     background: #e1e1e1;
     border-top: 1px solid #d0d0d0;
+}
+
+#footer-space {
+    height: 20px;
 }
 
 
@@ -392,7 +426,9 @@ footer a:hover {
                 height: 1800px;
                 width: 45%;
                 margin-left: 20%;
-                margin-right: 20%; 
+                margin-right: 20%;
+        }
+                
                 #menu {
                     font-size: 140%;
                     letter-spacing: 7px;
@@ -414,6 +450,17 @@ footer a:hover {
                     margin: 0 70px;
         
                 }
+
+                                #our-courses {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: space-between;
+                                }
+                
+                                #our-courses>div {
+                                    flex-basis: 48%;
+                                    margin-bottom: 30px;
+                                }
 }
 
 
@@ -468,6 +515,15 @@ footer a:hover {
             margin: 0 70px;
     
         }
+
+                @media screen and (max-width: 480px) {
+                    #goals {
+                        height: auto;
+                        width: 45%;
+                        margin-left: 20%;
+                        margin-right: 20%;
+
+                    }
 
     
 }
