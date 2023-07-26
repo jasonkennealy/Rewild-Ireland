@@ -165,7 +165,7 @@ hr {
     margin: auto;
 }
 
-#course-headings {
+.course-headings {
     background-color: #ccc;
     padding: 5px 9px;
     text-decoration: none;
