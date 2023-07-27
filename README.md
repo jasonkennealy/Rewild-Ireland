@@ -199,35 +199,10 @@ use header tag
   * [Index Page HTML](documentation/testing/w3c/w3c-index.png)
   * [About CheckUp Dublin Center Page HTML](documentation/testing/w3c/w3c-about.png)
   * [Services Page HTML](documentation/testing/w3c/w3c-services.png)
-  * [Contact us Page HTML](documentation/testing/w3c/w3c-contact.png)
-  * [Thank you Page HTML](documentation/testing/w3c/w3c-thankyou.png)
  
 - CSS: No errors were found when passing through the official Jigsaw validator.
    * [style.css](documentation/testing/w3c/w3c-css.png)
 
-### Lighthouse
-
-I utilized Lighthouse, a tool available in the Chrome Developer Tools, to assess the performance, accessibility, best practices, and SEO aspects of the website.
-
-#### Home page
-- Desktop: [Home page - desktop](documentation/testing/lighthouse/home-desktop.png)
-- Mobile: [Home page - mobile](documentation/testing/lighthouse/home-mobile.png)
-
-#### About Checkup Dublin Center page
-- Desktop: [About CheckUp Dublin Center page - desktop](documentation/testing/lighthouse/about-desktop.png)
-- Mobile: [About CheckUp Dublin Center page - mobile](documentation/testing/lighthouse/about-mobile.png)
-
-#### Services page
-- Desktop: [Services page - desktop](documentation/testing/lighthouse/services-desktop.png)
-- Mobile: [Services page - mobile](documentation/testing/lighthouse/services-mobile.png)
-
-#### Contact us page
-- Desktop: [Contact us page - desktop](documentation/testing/lighthouse/contact-desktop.png)
-- Mobile: [Contact us page - mobile](documentation/testing/lighthouse/contact-mobile.png)
-
-#### Thank you page
-- Desktop: [Thank you page - desktop](documentation/testing/lighthouse/thankyou-desktop.png)
-- Mobile: [Thank you page - mobile](documentation/testing/lighthouse/thankyou-mobile.png)
 
 ### Full Testing
 
