@@ -150,9 +150,9 @@ Github was used to store files for site
 
 Google Fonts was where i  got the fonts used on the website.
 
-Font Awesome For icons
+I used Font Awesome For icons
 
-Google Dev Tools
+I also used Google Dev Tools to help identify bugs and for debugging.
 
 [Am I Responsive?](http://ami.responsivedesign.is/) To display the website on different devices
 
@@ -160,26 +160,37 @@ Google Dev Tools
 
 ## Deployment
 
-- The site was deployed using github and the live link can be viewed  here - [CheckUp Dublin Center](https://github.com/jasonkennealy/Rewild-Ireland)  
+- The site was deployed using github and the live link can be viewed  here - [Rewild IrelandI als](https://github.com/jasonkennealy/Rewild-Ireland)  
 
 - - -
 
-## Testing and Solved Bugs
+## Testing and Solved 
+
 
 Tests for bugs was done consistently through making this site to catch and deal with them early
 
-In my mid project meeting with Elaine Roche, the floowing problems were brought up:
+In my mid project meeting with Elaine Roche, the floowing problems were brought up and have been corrected:
 
-responsiveness - maybe consider flexbox for courses at the bottom of the homepage
-get the links working
+responsiveness - maybe consider flexbox for courses at the bottom of the 
+
+get nav  the links working
+
 fix 404 on click on main title
+
 get the hero image to load
+
 footer on homepage - maybe add some blank space under it
-visually distinguish the 2 different forms and add a phrase/blurb to drive home to the user the purpose of each
+
+distinguish the 2 different forms and add a phrase/blurb to drive home to the user the purpose of each
+
 resize the form input area / fields so that they don't take up the full width of the screen
+
 move down the submit buttons on the forms
+
 add comments to html files
+
 use header tag
+
 
 
 ### Validator Testing 
