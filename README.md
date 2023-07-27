@@ -201,7 +201,7 @@ use header tag
   * [Course Form](/error-images/course-form-error.PNG)
  
 - CSS: No errors were found when passing through the official Jigsaw validator.
-   * [style.css](documentation/testing/w3c/w3c-css.png)
+   * [style.css](/error-images/css-error.PNG)
 
 
 ### Full Testing
@@ -228,6 +228,5 @@ Website has been tested on different devices and browsers to ensure maximum func
 
 ### Media
 
-All photos taken from 
 
 - [All photos taken from:](<burst.shopify.com/photos/search?q=nature>)
