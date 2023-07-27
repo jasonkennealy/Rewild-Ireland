@@ -196,9 +196,9 @@ use header tag
 ### Validator Testing 
 
 - HTML: No errors were returned when passing through the official W3C validator.
-  * [Index Page HTML](documentation/testing/w3c/w3c-index.png)
-  * [About CheckUp Dublin Center Page HTML](documentation/testing/w3c/w3c-about.png)
-  * [Services Page HTML](documentation/testing/w3c/w3c-services.png)
+  * [Home page HTML](/error-images/homepage-error.PNG)
+  * [Tree form HTML](/error-images/tree-form-error.PNG)
+  * [Course Form](/error-images/course-form-error.PNG)
  
 - CSS: No errors were found when passing through the official Jigsaw validator.
    * [style.css](documentation/testing/w3c/w3c-css.png)
@@ -206,19 +206,9 @@ use header tag
 
 ### Full Testing
 
-To make sure my website works properly, I tested it on different web browsers like Google Chrome and Microsoft Edge, and also on different devices such as a Dell Inspiron 15-inch laptop and a Samsung A52S smartphone.
+Website has been tested on different devices and browsers to ensure maximum functionality.
 
-Additionally, I inspected each page using Google Chrome Developer Tools to ensure that they appeared correctly and were responsive on various screen sizes.
 
-Links:
-
-- I conducted link testing on the index page, about us page, services page, contact us page, and thank you page. During the testing, it was confirmed that all the links on these pages operated as expected. Additionally, any links that directed to external pages successfully opened in separate browser tabs.
-
-Contact Us Form:
-
-1. The contact us form was tested by submitting it without filling in any input fields. The form correctly prompted the user to fill in the First Name field. After filling in the first name and submitting the form, the form directed the user to fill out the Last Name field. Upon completing the last name and submitting the form, the user was prompted to fill in the Email field. Finally, after filling in the first name, last name and email, the form successfully submitted and opened the thank you page in the same browser window, considering the phone number and message fields as optional.
-2. A test was performed by submitting the form with only the email address. The form correctly directed the user to fill in the First Name field. After providing the first name and email, the form prompted the user to fill out the Last Name field. Upon completing the first name, last name, and email, the form successfully submitted and opened the thank you page in the same browser window.
-3. Another test was conducted by submitting the form with only the message field filled in. The form correctly directed the user to fill in the First Name field and then the Last Name field. After providing the first name, last name, and message, the form prompted the user to fill in the email field. Finally, after filling in the first name, last name, email, and message, the form successfully submitted and opened the thank you page in the same browser window.
 
 - - -
 
@@ -227,6 +217,7 @@ Contact Us Form:
 ### Code Used
 
 - [Structural inspiration taken from LoveRunning source code from Code Institute](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+- [Forms made using tips and variations of code from:](https://www.w3schools.com/html/html_forms.asp)
 - [README.md template from Code Institute](https://github.com/Code-Institute-Solutions/readme-template)
 - [README template from Izabella Lopes](<https://github.com/IzabellaLopes/checkup-dublin/blob/main/README.md?plain=1>)
 
@@ -237,47 +228,6 @@ Contact Us Form:
 
 ### Media
 
- Home page:
- 
-- Background
-    - [hero-image](https://www.istockphoto.com/photo/close-up-of-a-stethoscope-and-digital-tablet-with-virtual-electronic-medical-record-gm1369987284-439639988?phrase=medicine+background) - Credit to everything possible, iStock.
- 
-- Our services
-    - [complete checkup](https://www.istockphoto.com/photo/doctor-writing-a-medical-prescription-gm1319031310-405998329?phrase=physical+examination) - Credit to demaerre, iStock. 
-    - [clinical investigations](https://www.istockphoto.com/photo/professional-doctor-preparing-patient-for-procedure-gm627290560-111071371?phrase=Clinical+investigations) - Credit to YakobchukOlena, iStock
-    - [exams](https://www.istockphoto.com/photo/detail-of-computer-ultrasound-with-x-ray-in-modern-medicine-gm941578476-257350996?phrase=ultrasound+device) - Credit to Vladimir_Timofeev, iStock.
- 
-- Testimonials
-    - [testimonial-1](https://lexica.art/prompt/a2c059db-d517-4f22-ae91-cbaa919a63ee) - Credit to Lexica.
-    - [testimonial-2](https://lexica.art/prompt/9edb0923-b474-4c74-b11b-28d9f889714d) - Credit to Lexica.
-    - [testimonial-3](https://lexica.art/prompt/cc910fc1-bde8-4df2-98e8-587ccd41bb56) - Credit to Lexica.
-    - [testimonial-4](https://lexica.art/prompt/0175a75b-41b8-4024-89af-492bde6523bf) - Credit to Lexica. 
+All photos taken from 
 
-About CheckUp Dublin Center page:
-
-- Welcome
-    - [welcome](https://www.istockphoto.com/photo/reception-and-armchairs-in-hospital-hall-gm1223999858-359731228?phrase=clinic%2Breception%2Bdesk) - Credit to ismagilov, iStock.
-
-- Our Team
-    - [our-team-1](https://lexica.art/prompt/7c2c4250-0675-4b96-b507-47a96905968e) - Credit to Lexica.
-    - [our-team-2](https://lexica.art/prompt/7bd0447d-9020-4137-94a9-9489eb117e96) - Credit to Lexica.
-    - [our-team-3](https://lexica.art/prompt/ed4d8873-e9a7-49e0-a411-1fd7d976040d) - Credit to Lexica.
-    - [our-team-4](https://lexica.art/prompt/c01b134c-472b-4425-a353-d8da33843866) - Credit to Lexica.
-
-Services page:
-
-- Gallery
-    - [gallery-1](https://lexica.art/prompt/0decd297-34db-4af5-99e9-441292db1824) - Credit to Lexica.
-    - [gallery-2](https://www.istockphoto.com/photo/nurse-and-doctor-team-meeting-collaboration-gm1272197465-374537275) - Credit to AndreyPopov, iStock.
-    - [gallery-3](https://unsplash.com/pt-br/fotografias/Y-3Dt0us7e0) - Credit to Patty Brito, Unsplash.
-    - [gallery-4](https://www.istockphoto.com/photo/elderly-patient-with-bp-heart-rate-digital-pulse-check-equipment-for-medical-gm1177942982-329043762) - Credit to Chinnapong, iStock.
-    - [gallery-5](https://www.istockphoto.com/photo/making-ultrasound-check-up-gm895702826-247446807) - Credit to shironosov, iStock.
-    - [gallery-6](https://www.istockphoto.com/photo/bone-density-hip-and-lumbarspine-result-osteoporosis-gm1165489459-320715536) - Credit to Tonpor Kasa, iStock.
-    - [gallery-7](https://www.istockphoto.com/photo/young-caucasian-man-standing-against-wall-while-doctor-using-x-ray-machine-scan-him-gm1266813630-371478609?phrase=chest+xray) - Credit to Inside Creative House, iStock.
-    - [gallery-8](https://unsplash.com/pt-br/fotografias/QsBfOwMoPNY) - Credit to Towfiqu barbhuiya, Unsplash. 
-
-
-### Acknowledgments
-
-- My family, for their strong support during my transition and development of a new career. Their names are featured in the testimonials and our team section of the CheckUp Dublin Center webpage as a way to honor them and show my appreciation.
-- Jubril Akolade, my Code Institute Mentor, for providing valuable advice.
+- [All photos taken from:](<burst.shopify.com/photos/search?q=nature>)

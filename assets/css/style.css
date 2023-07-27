@@ -266,7 +266,6 @@ input[type=email] {
     max-width: 400px;
     padding: 12px 20px;
     margin: 8px auto;
-    display: center;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
@@ -308,7 +307,6 @@ input[type=submit] {
     opacity: .8;
     right: -90px;
     cursor: pointer;
-    display: center;
 }
 
 #tree-details {
@@ -385,8 +383,9 @@ footer a:hover {
 }
 
 
+/*MEDIA QUERIES*/
 
-/* MEDIA QUERIES */
+/* First media query for max-width: 1200px */
 
 @media screen and (max-width: 1200px) {
     #goals {
@@ -396,10 +395,7 @@ footer a:hover {
         margin-right: 20%;
         margin-top: 60px;
         margin-bottom: 60px;
-        margin-left: auto;
-        margin-right: auto;
         text-align: center;
-        margin-bottom: 0;
     }
 
     footer a:hover {
@@ -415,126 +411,39 @@ footer a:hover {
         float: left;
         position: relative;
     }
+}
 
-
-
-    /* MEDIA QUERIES */
-
-    @media screen and (max-width: 1200px) {
-        #goals {
-            height: auto;
-            width: 45%;
-            margin: auto;
-        }
-
-        #menu {
-            font-size: 140%;
-            letter-spacing: 7px;
-            display: block;
-            justify-content: center;
-            padding: 0;
-            width: 100%;
-            margin-top: 150px;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            margin-bottom: 0;
-        }
-
-        #menu li {
-            display: block;
-            text-decoration: none;
-            list-style-type: none;
-            margin: 0 70px;
-
-        }
-
-        #our-courses {
-            justify-content: space-between;
-        }
-
-        #our-courses>div {
-            flex-basis: 48%;
-            margin-bottom: 30px;
-        }
+/* Second media query for max-width: 900px */
+@media screen and (max-width: 900px) {
+    #goals {
+        height: auto;
+        width: 45%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
+
+    /* Add your styles for max-width: 900px here */
 
     .course {
         text-align: center;
         line-height: 40pt;
-        width: 50%;
+        width: 100%;
         height: 300px;
         float: left;
         position: relative;
     }
+}
 
+/* Third media query for max-width: 480px */
 
-    @media screen and (max-width: 900px) {
-        #goals {
-            height: auto;
-            width: 45%;
-            margin-left: 20%;
-            margin-right: 20%;
-        }
+@media screen and (max-width: 480px) {
+    #goals {
+        height: auto;
+        width: 45%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 
-        #menu {
-            font-size: 140%;
-            letter-spacing: 7px;
-            display: block;
-            justify-content: center;
-            padding: 0;
-            width: 100%;
-            margin-top: 150px;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            margin-bottom: 0;
-        }
+    /* Add your styles for max-width: 480px here */
 
-        #menu li {
-            display: block;
-            text-decoration: none;
-            list-style-type: none;
-            margin: 0 70px;
-
-        }
-
-        .course {
-            text-align: center;
-            line-height: 40pt;
-            width: 100%;
-            height: 300px;
-            float: left;
-            position: relative;
-        }
-
-        #menu {
-            font-size: 140%;
-            letter-spacing: 7px;
-            display: block;
-            justify-content: center;
-            padding: 0;
-            width: 100%;
-            margin-top: 150px;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            margin-bottom: 0;
-        }
-
-        #menu li {
-            display: block;
-            text-decoration: none;
-            list-style-type: none;
-            margin: 0 70px;
-
-        }
-
-        @media screen and (max-width: 480px) {
-            #goals {
-                height: auto;
-                width: 45%;
-                margin-left: 20%;
-                margin-right: 20%;
-
-            }
+}
